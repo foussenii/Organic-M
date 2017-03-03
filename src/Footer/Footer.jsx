@@ -1,6 +1,10 @@
 import React from 'react';
 import './footer.css';
-
+import img1 from "./../../public/img/twit.png"
+import img2 from "./../../public/img/fb.png"
+import img3 from "./../../public/img/insta.png"
+import img4 from "./../../public/img/youtb.png"
+import img5 from "./../../public/img/mail.png"
 
 class Footer extends React.Component {
 
@@ -10,27 +14,27 @@ class Footer extends React.Component {
             <div className="container">
                 <div className="items1">
                     <a href="#">
-                        <img className="twit" src="logo/twit.png" alt=""/>
+                        <img className="twit" src={img1} alt=""/>
                     </a>
                 </div>
                 <div className="items2">
                     <a href="#">
-                        <img className="facebook" src="logo/facebook.png" alt=""/>
+                        <img className="facebook" src={img2} alt=""/>
                     </a>
 				</div>
                 <div className="items3">
                     <a href="#">
-                        <img className="instagram" src="logo/instagram.png" alt=""/>
+                        <img className="instagram" src={img3} alt=""/>
                     </a>
 				</div>
                 <div className="items4">
                     <a href="#">
-                        <img className="youtube" src="logo/youtube.png" alt=""/>
+                        <img className="youtube" src={img4} alt=""/>
                     </a>
 				</div>
                 <div className="items5">
                     <a href="#">
-                        <img className="mail" src="logo/logo-mail.png" alt=""/>
+                        <img className="mail" src={img5}alt=""/>
                     </a>
                 </div>
                 <div className="fin">
