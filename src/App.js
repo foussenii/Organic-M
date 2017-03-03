@@ -5,6 +5,8 @@ import Partenaire from './Partenaire/Partenaire.jsx';
 
 import Navbar from "./Navbar/Navbar.jsx";
 import Caroussel from "./Caroussel/Caroussel.jsx";
+import Parallax from "./Parallax/Parallax.jsx";
+import Activites from "./Activites/Activites.jsx";
 
 
 class App extends Component {
@@ -18,7 +20,11 @@ class App extends Component {
 
         <Navbar />
         <Caroussel/>
-        <Partenaire></Partenaire>
+
+        <Parallax />
+        <Activites />
+
+        <Partenaire/>
         <Footer></Footer>
 
       </div>

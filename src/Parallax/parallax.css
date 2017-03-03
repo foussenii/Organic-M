@@ -1,0 +1,14 @@
+.parallax{
+	/*display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+	color:white;*/
+	background-image: url('http://www.leclub-fitness.com/images/stories/bodybuilding_muscles_training_sport_dumbell_0.jpg');
+	background-position:center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 535px;
+}
