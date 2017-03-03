@@ -3,22 +3,22 @@
 }
 .header{
 	position:absolute;
+	width:100%;
+	height:12vh;
+	background-color:white;
+	opacity:0.5;
+}
+.wrapHead{
 	display:flex;
 	flex-direction:row;
 	justify-content:space-around;
-	width:100%;
-	height:12vh;
-	background-color:#fce5cdff;
-	border:2px solid black;
-
 }
 .logo img{
 	width:162px;
 	height:162px;
-	border:2px solid black;
 }
 .navpart1 ul{
-		width:100%;
+	width:100%;
 	list-style:none;
 	display:flex;
 	flex-direction:row;
