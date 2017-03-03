@@ -7,6 +7,7 @@ class Navbar extends React.Component{
 
 		return(
 				<div className="header">
+					<div className="wrapHead">
 					<div className="navpart1">
 						<ul>
 							<li>Home</li>
@@ -27,7 +28,7 @@ class Navbar extends React.Component{
 							<li>Nos partenaires</li>
 						</ul>
 					</div>
-					
+					</div>
 				</div>
 			);
 		}
