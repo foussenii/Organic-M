@@ -1,0 +1,91 @@
+.contaireDisciplines {
+    height: 100vh;
+}
+
+.titreDisciplines {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerGrid {
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+.grid {
+    width: 33.3%;
+    height: 100%;
+}
+
+.titreGrid {
+    height: 15%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerGridCircle {
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gridCircle {
+    border: 1px solid;
+    height: 60%;
+    width: 65%;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.styleDesPla {
+    display: flex;
+    justify-content: center;
+    background-color: #0097A7;
+    height: 50%;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    transition: 0.4s;
+}
+.styleDesPla:hover {
+  height: 100%;
+}
+.imageDisipline {
+    height: 100%;
+    width: 100%;
+}
+.imageDisipline img {
+    height: 100%;
+    width: 100%;
+}
+.contPlaDes {
+    display: flex;
+    height: 50%;
+}
+.planingConte {
+    width: 50%;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 24px;
+    background-color: #0097A7;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.descriptionConte {
+    width: 50%;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 24px;
+    background-color: #0097A7;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
