@@ -5,20 +5,20 @@ import { Link } from 'react-router';
 
 const slides=[
 	{
-		url:"https://vemco.com/wp-content/uploads/2012/09/image-banner2.jpg",
-		title:"ma premiere image"
+		url:"./img/qiqong.jpg",
+		title:"L'ART DU SOUFFLE ET DU MOUVEMENT"
 	},
 	{
-		url:"http://www.w3schools.com/css/img_fjords.jpg",
-		title:"ma deuxieme image"
+		url:"./img/2.JPG",
+		title:""
 	},
 	{
-		url:"https://s3-us-west-1.amazonaws.com/powr/defaults/image-slider2.jpg",
-		title:"ma troisieme image"
+		url:"./img/OM6.jpg",
+		title:""
 	},
 	{
-		url:"https://vemco.com/wp-content/uploads/2012/09/image-banner2.jpg",
-		title:"ma troisieme image"
+		url:"./img/OM4.jpg",
+		title:""
 	},
 ]
 

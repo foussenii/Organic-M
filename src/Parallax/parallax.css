@@ -5,7 +5,7 @@
 	align-items: center;
 	text-align:center;
 	color:white;*/
-	background-image: url('http://www.leclub-fitness.com/images/stories/bodybuilding_muscles_training_sport_dumbell_0.jpg');
+	background-image: url('./../../public/img/paral.jpeg');
 	background-position:center;
 	background-size: cover;
 	background-attachment: fixed;
