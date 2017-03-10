@@ -5,6 +5,8 @@ import Event from "./Event/Event.jsx";
 import Activites from "./Activites/Activites.jsx";
 import Disciplines from './Disciplines/Disciplines.jsx';
 import Partenaire from './Partenaire/Partenaire.jsx';
+import Tarif from './Tarif/Tarif.jsx';
+import Presentation from './Presentation/Presentation.jsx';
 
 
 const Routes = (props) => (
@@ -14,6 +16,8 @@ const Routes = (props) => (
 	<Route path="/disciplines" component={Disciplines} />
 	<Route path="/activites" component={Activites} />
 	<Route path="/partenaire" component={Partenaire} />
+	<Route path="/tarifs" component={Tarif} />
+	<Route path="/presentation" component={Presentation} />
    </Router>
 );
 

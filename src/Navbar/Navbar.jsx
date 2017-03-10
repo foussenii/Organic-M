@@ -11,8 +11,8 @@ class Navbar extends React.Component{
 					<div className="wrapHead">
 					<div className="navpart1">
 						<ul>
-							<li>Home</li>
-							<li><Link to="/">Présentation</Link></li>
+							<li><Link to="/">Home</Link></li>
+							<li><Link to="/presentation">Présentation</Link></li>
 							<li>Disciplines
 								<ul>
 									<li><Link to="/Disciplines">Nos disciplines</Link></li>
@@ -24,7 +24,7 @@ class Navbar extends React.Component{
 					<div className="logo"><img src={logo}/></div>
 					<div className="navpart2">
 						<ul>
-							<li>Tarifs</li>
+							<li><Link to="/tarifs">Tarifs</Link></li>
 							<li>Notre équipe</li>
 							<li><Link to="/partenaire">Nos partenaires</Link></li>
 						</ul>
