@@ -28,3 +28,19 @@ ul{
 .picbox{
 	width:400%;
 }
+.prev img{
+	margin-top: 50vh;
+	position:absolute;
+	border:2px solid red;
+	width:50px;
+	height:50px;
+	transform: rotate(180deg);
+}
+.next img{
+	margin-top: 50vh;
+	margin-left:100vw;
+	position:absolute;
+	border:2px solid red;
+	width:50px;
+	height:50px;
+}

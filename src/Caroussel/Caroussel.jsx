@@ -1,5 +1,6 @@
 import React from 'react';
 import "./caroussel.css";
+import chevron from "./../../public/img/chevron.png";
 
 const slides=[
 	{
@@ -50,23 +51,23 @@ class Caroussel extends React.Component{
   	let newMargin=this.state.position * -1280;
     return (
 
-      <div className="App">
+    <div className="App">
       <div className="wrapCar">
      	<div className="navcontent">
-     		<ul style={{marginLeft:newMargin}}>
+	     	<div className="prev" onClick={() => this.prevSlide()}><img src={chevron} alt="prev"/></div>
+	     	<div className="next" onClick={this.nextSlide.bind(this)}><img src={chevron} alt="next"/></div>
+	     		<ul style={{marginLeft:newMargin}}>
      			
 	     		{slides.map(slide=>
 	     			<li className="picbox">
 	     		<img src={slide.url} alt="1"/>
 	     		<p> {slide.title} </p>
-	     		</li>
+	     			</li>
 	     		)}
-     		</ul>
+     			</ul>
      	</div>
-     </div>
-     	<button onClick={() => this.prevSlide()}>Prev</button>
-     	<button onClick={this.nextSlide.bind(this)}>Next</button>
-      </div>
+     </div> 	
+    </div>
     );
   }
 }
