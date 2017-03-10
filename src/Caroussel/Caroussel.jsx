@@ -1,6 +1,7 @@
 import React from 'react';
 import "./caroussel.css";
 import chevron from "./../../public/img/chevron.png";
+import { Link } from 'react-router';
 
 const slides=[
 	{
@@ -54,18 +55,22 @@ class Caroussel extends React.Component{
     <div className="App">
       <div className="wrapCar">
      	<div className="navcontent">
-	     	<div className="prev" onClick={() => this.prevSlide()}><img src={chevron} alt="prev"/></div>
-	     	<div className="next" onClick={this.nextSlide.bind(this)}><img src={chevron} alt="next"/></div>
-	     		<ul style={{marginLeft:newMargin}}>
-     			
-	     		{slides.map(slide=>
-	     			<li className="picbox">
-	     		<img src={slide.url} alt="1"/>
-	     		<p> {slide.title} </p>
-	     			</li>
-	     		)}
-     			</ul>
-     	</div>
+	     	<div className="contact">
+	          <div className="triangle"></div>
+	          <Link to="/event"><button className="ok" type="button">Events</button></Link>
+	        </div>
+		     	<div className="prev" onClick={() => this.prevSlide()}><img src={chevron} alt="prev"/></div>
+		     	<div className="next" onClick={this.nextSlide.bind(this)}><img src={chevron} alt="next"/></div>
+		     		<ul style={{marginLeft:newMargin}}>
+	     			
+		     		{slides.map(slide=>
+		     			<li className="picbox">
+		     		<img src={slide.url} alt="1"/>
+		     		<p> {slide.title} </p>
+		     			</li>
+		     		)}
+	     			</ul>
+	     	</div>
      </div> 	
     </div>
     );

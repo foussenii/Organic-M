@@ -21,10 +21,10 @@ class App extends Component {
 
         <Navbar />
         <Caroussel/>
-
+        <Disciplines/>
         <Parallax />
         <Activites />
-        <Disciplines/>
+        
         <Partenaire/>
         <Footer></Footer>
 
