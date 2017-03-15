@@ -8,7 +8,7 @@ h1 {
     text-align: center;
     margin: 1em;
     text-shadow: 4px 2px rgba(0, 0, 0, 0.28);
-    
+
 }
 
 .section {
@@ -25,24 +25,35 @@ h1 {
 }
 
 .logo1 {
-    width: 180px;
-    height: 220px;
+  width: 220px;
+  height: 170px;
 }
 
 .logo2 {
     align-self: flex-end;
+    width: 230px;
+    height: 160px;
 }
-
-.logo6{
-  align-self:flex-end;
-
+.logo3{
+  width: 360px;
+  height: 150px;
 }
 
 .logo4 {
-    align-self: flex-end
+    align-self: flex-end;
+    width: 210px;
+    height: 190px;
 }
 
-.logo5 {}
+.logo5 {
+  width: 180px;
+  height: 170px;
+}
+
+.logo6 {
+  align-self:flex-end;
+
+}
 
 .img1 {
     width: 220px;
@@ -70,8 +81,8 @@ h1 {
 }
 .img6 {
 
-  width: 180px;
-  height: 170px;
+  width: 280px;
+  height: 270px;
 
 }
 
@@ -83,150 +94,3 @@ h1 {
 /*.logo:hover {
     animation: elastic 6s linear 0s 1 normal;
 }*/
-.sociaux  {
-  height: 50px;
-  background-color: #F0FFF3;
-}
-.fin {
-  height: 60px;
-  background-color:#40E0D0;
-  text-align: center;
-  color: white;
-  font-family:arial;
-font-size: 15px;
-}
-a{
-  width: 50px;
-  height: 50px;
-}
-.pere {
-  display:flex;
-justify-content: center;
-
-}
-
-
-    .twit{
-      height: 33px;
-      width: 33px;
-    }
-    .facebook{
-      height: 33px;
-      width: 33px;
-    }
-    .instagram{
-      height: 30px;
-      width: 30px;
-    }
-    .youtube {
-      height: 28px;
-      width: 28px;
-    }
-    .mail{
-      height: 28px;
-      width: 28px;
-      left: 100px;
-
-    }
-
-
-@-webkit-keyframes elastic {
-  0% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-    30% {
-        -webkit-transform: scaleX(1.25) scaleY(0.75);
-        transform: scaleX(1.25) scaleY(0.75);
-    }
-    60% {
-        -webkit-transform: scaleX(0.75) scaleY(1.25);
-        transform: scaleX(0.75) scaleY(1.25);
-    }
-    90% {
-        -webkit-transform: scaleX(1.15) scaleY(0.85);
-        transform: scaleX(1.15) scaleY(0.85);
-    }
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-}
-
-/*@keyframes elastic {
-    0% {
-        -ms-transform: scale(1);
-        transform: scale(1);
-    }
-    30% {
-        -ms-transform: scaleX(1.25) scaleY(0.75);
-        transform: scaleX(1.25) scaleY(0.75);
-    }
-    40% {
-        -ms-transform: scaleX(0.75) scaleY(1.25);
-        transform: scaleX(0.75) scaleY(1.25);
-    }
-    60% {
-        -ms-transform: scaleX(1.15) scaleY(0.85);
-        transform: scaleX(1.15) scaleY(0.85);
-    }
-    100% {
-        -ms-transform: scale(1);
-        transform: scale(1);
-    }
-}*/
-
-/*@-webkit-keyframes jump {
-    0% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-    20% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-    40% {
-        -webkit-transform: translateY(-30px);
-        transform: translateY(-30px);
-    }
-    50% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-    60% {
-        -webkit-transform: translateY(-15px);
-        transform: translateY(-15px);
-    }
-    80% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-    100% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-}*/
-
-@keyframes jump {
-    0% {
-        transform: translateY(0);
-    }
-    20% {
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(-30px);
-    }
-    50% {
-        transform: translateY(0);
-    }
-    60% {
-        transform: translateY(-15px);
-    }
-    80% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}

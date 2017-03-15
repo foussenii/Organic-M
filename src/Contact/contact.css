@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+}
+#maquette{
+  height: 120px;
+  width: 140px;
+
+}
+
+ .contact{
+   text-align: center;
+   font-size: 27px;
+   font-family: 'Sansita', sans-serif;
+   margin-bottom: 2em;
+ }
+ p{
+   font-family: 'Sansita', sans-serif;
+  font-size: 13px;
+
+ }
+
+ .end{
+    font-family: 'Sansita', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    color: black;
+    font-size: 17px;
+ }
+ .fin{
+   height: 50px;
+   background-color: #F0FFF3;
+ }
+ form{
+  margin: 0 0 1.313em;
+   width:100;
+   padding: 1em;
+   border: 1px solid #ccc;
+   border-radius: 1em;
+   padding-top: -2em;
+
+
+ }
+
+form div + div{
+  margin-top: 1em;
+}
+
+#messeng{
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+     font-family: 'Sansita', sans-serif;
+
+}
+#mail{
+  width:500px;
+  height: 30px;
+  border-radius: 5px;
+     font-family: 'Sansita', sans-serif;
+}
+#name{
+  width:500px;
+  height: 30px;
+  border-radius: 5px;
+     font-family: 'Sansita', sans-serif;
+}
+label{
+  display: inline-block;
+  text-align: right;
+  width: 300px;
+
+}
+button, input, select, textarea {
+    margin: 0;
+    font-size: 80%;
+    vertical-align: middle;
+}
+input, textarea {
+
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+textarea{
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
+.button{
+  padding-left: 300px;
+}
+button{
+  margin-left: .5em;
+  border-radius: 10px;
+  background-color: white;
+  transition-delay: 0.5s;
+  transition-duration: 0.5s;
+     font-family: 'Sansita', sans-serif;
+}
+
+button:hover{
+  background-color:#00CED1;
+  color:white;
+}

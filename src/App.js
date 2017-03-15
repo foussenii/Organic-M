@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Footer from'./Footer/Footer.jsx';
+import Profil from'./Profil/Profil.jsx';
 
 import Partenaire from './Partenaire/Partenaire.jsx';
 
@@ -18,7 +19,9 @@ class App extends Component {
 
         <Navbar />
         <Caroussel/>
+        <Profil></Profil>
         <Partenaire></Partenaire>
+        
         <Footer></Footer>
 
       </div>

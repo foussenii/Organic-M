@@ -1,0 +1,75 @@
+html {
+margin: 0;
+
+}
+h1{
+color: white ;
+text-align: center;
+margin-top: 2em ;
+font-family: 'Sansita', sans-serif;
+}
+
+h2{
+  color: green;
+  transition-duration: 1s;
+  transition-delay: 1s;
+transition-property:color;
+}
+h2:hover, h2:focus{
+  color: brown;
+
+}
+
+.theme {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+/*height: 300px;*/
+justify-content: space-around;
+padding-left:70px ;
+padding-right: 70px;
+
+}
+.profil :hover {
+	color: #FFFFFF;
+}
+.profil :active {
+	color: #f1ec67;
+}
+
+
+.profil1{
+  height: 225px;
+  width: 225px;
+  border-radius: 40px;
+  border: 10px solid #F5DEB3 ;
+  box-shadow: 0px 7px 10px 0px ;
+    }
+
+.profil2{
+  height: 225px;
+  width: 225px;
+  border-radius: 40px;
+  border: 10px solid #F5DEB3;
+  box-shadow: 0px 7px 10px 0px;
+
+}
+.name{
+  display: flex;
+  margin-top: 2em;
+  /*justify-content:center;
+  text-align: center;*/
+justify-content: space-between;
+  width: 620px;
+  padding-left: 310px;
+
+}
+.name1{
+  font-family: 'Sansita', sans-serif;
+font-size: 25px
+}
+.name2{
+  font-family: 'Sansita', sans-serif;
+
+  font-size:25px
+}
