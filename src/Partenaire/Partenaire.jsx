@@ -1,5 +1,5 @@
 import React from 'react';
-import './partenaire.css';
+// import './partenaire.css';
 import img1 from "./../../public/img/104.png";
 import img2 from "./../../public/img/gene.png";
 import img3 from "./../../public/img/heart.png";

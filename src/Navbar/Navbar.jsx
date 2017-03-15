@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Navbar.css";
 import logo from "./../../public/img/OM.png";
+import { Link } from 'react-router';
 
 class Navbar extends React.Component{
 	render(){
@@ -10,12 +11,12 @@ class Navbar extends React.Component{
 					<div className="wrapHead">
 					<div className="navpart1">
 						<ul>
-							<li>Home</li>
-							<li>Présentation</li>
+							<li><Link to="/">Home</Link></li>
+							<li><Link to="/presentation">Présentation</Link></li>
 							<li>Disciplines
 								<ul>
-									<li>Nos disciplines</li>
-									<li>Activités pédagogiques</li>
+									<li><Link to="/Disciplines">Nos disciplines</Link></li>
+									<li><Link to="/activites">Activités pédagogiques</Link></li>
 								</ul>
 							</li>
 						</ul>
@@ -23,9 +24,9 @@ class Navbar extends React.Component{
 					<div className="logo"><img src={logo}/></div>
 					<div className="navpart2">
 						<ul>
-							<li>Tarifs</li>
+							<li><Link to="/tarifs">Tarifs</Link></li>
 							<li>Notre équipe</li>
-							<li>Nos partenaires</li>
+							<li><Link to="/partenaire">Nos partenaires</Link></li>
 						</ul>
 					</div>
 					</div>
