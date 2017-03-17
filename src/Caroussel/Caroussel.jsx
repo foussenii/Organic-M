@@ -13,11 +13,11 @@ const slides=[
 		title:""
 	},
 	{
-		url:"./img/OM6.jpg",
+		url:"http://www.yoghamsa.com/wp-content/uploads/2016/01/yoga-mer-ponton.jpg",
 		title:""
 	},
 	{
-		url:"./img/OM4.jpg",
+		url:"http://caffeyoga.com/wp-content/uploads/2016/01/beach-yoga1.jpg",
 		title:""
 	},
 ]

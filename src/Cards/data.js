@@ -7,10 +7,6 @@ const contenu = {
     "https://i1.wp.com/cotesoleils.fr/wp-content/uploads/2015/06/tajine-agneau-et-pruneaux-algc3a9rie1.jpg",
     "http://scrat.hellocoton.fr/img/guide/recette-ma-salade-tiede-de-chou-kale-et-lentilles-patates-douces-et-saumon-fume-18911644.jpg"
   ],
-  "baseline": "XXX",
-  "addresse": "XXX",
-  "codePostale": "XXX",
-  "ville": "XXX",
   "activites": [
     {
       "id": 1,
