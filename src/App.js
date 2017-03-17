@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Footer from'./Footer/Footer.jsx';
+import Profil from'./Profil/Profil.jsx';
 
 import Partenaire from './Partenaire/Partenaire.jsx';
 
@@ -21,11 +22,14 @@ class App extends Component {
 
         <Navbar />
         <Caroussel/>
+
+
         <Disciplines/>
         <Parallax />
         <Activites />
-        
+        <Profil></Profil>
         <Partenaire/>
+
         <Footer></Footer>
 
       </div>

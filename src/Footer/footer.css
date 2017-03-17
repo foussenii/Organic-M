@@ -23,31 +23,37 @@ a{
   width: 50px;
   height: 50px;
 }
-.pere {
+.share {
   display:flex;
   justify-content: center;
+
 
 }
 
 .twit{
   height: 33px;
   width: 33px;
+
 }
 .facebook{
   height: 33px;
   width: 33px;
+  padding-left: 10px;
 }
 .instagram{
   height: 30px;
   width: 30px;
+  padding-left: 10px;
 }
 .youtube {
-  height: 28px;
-  width: 28px;
+  height: 31px;
+  width: 31px;
+  padding-left: 10px;
 }
 .mail{
-  height: 28px;
-  width: 28px;
+  height: 31px;
+  width: 31px;
   left: 100px;
+  padding-left: 10px;
 
 }

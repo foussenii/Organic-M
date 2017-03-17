@@ -27,7 +27,7 @@ class Partenaire extends React.Component {
                         <div className="logo5">
                             <img className={img5} src="img/q.png" alt=""/></div>
                         <div className="logo6">
-                            <img className={img6} src="img/chouette.png" alt=""/></div>
+                            <img  src="img/chouette.png" alt=""/></div>
 
                     </div>
                 </div>

@@ -12,6 +12,7 @@ class Footer extends React.Component {
 
         return (
             <div className="container">
+              <div className="share">
                 <div className="items1">
                     <a href="#">
                         <img className="twit" src={img1} alt=""/>
@@ -36,6 +37,7 @@ class Footer extends React.Component {
                     <a href="#">
                         <img className="mail" src={img5}alt=""/>
                     </a>
+                    </div>
                 </div>
                 <div className="fin">
                     <h2>2017- Organic M</h2>
