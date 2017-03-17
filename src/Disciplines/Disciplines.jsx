@@ -2,7 +2,7 @@ import React from 'react';
 import img from '../../public/img/qiqong.jpg';
 import Modal from './Modal/Modal.jsx';
 import Button from './Modal/Button/Button.jsx';
-import Disciplines1 from './Discipline1/Discipline1.jsx'
+import Disciplines1 from './Discipline1/Discipline1.jsx';
 
 import './Disciplines.css';
 

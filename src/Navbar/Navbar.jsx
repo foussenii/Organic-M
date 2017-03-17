@@ -11,7 +11,7 @@ class Navbar extends React.Component{
 					<div className="wrapHead">
 					<div className="navpart1">
 						<ul>
-							<li><Link to="/">Home</Link></li>
+							<li><Link to="/home">Home</Link></li>
 							<li><Link to="/presentation">Présentation</Link></li>
 							<li>Disciplines
 								<ul>
