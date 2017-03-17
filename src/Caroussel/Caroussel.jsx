@@ -65,7 +65,7 @@ class Caroussel extends React.Component{
 	     			
 		     		{slides.map(slide=>
 		     			<li className="picbox">
-		     			<p> {slide.title}</p>
+		     			{/*<p> {slide.title}</p>*/}
 		     		<img src={slide.url} alt="1"/>
 		     			</li>
 		     		)}

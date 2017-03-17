@@ -7,13 +7,13 @@ import Disciplines from './Disciplines/Disciplines.jsx';
 import Partenaire from './Partenaire/Partenaire.jsx';
 import Tarif from './Tarif/Tarif.jsx';
 import Presentation from './Presentation/Presentation.jsx';
-import Intro from './Intro/Intro.jsx';
+//import Intro from './Intro/Intro.jsx';
 
 
 const Routes = (props) => (
   <Router {...props}>
-  	<Route path="/" component={Intro}/>
-    <Route path="/home" component={App} />
+  	{/*<Route path="/" component={Intro}/>*/}
+    <Route path="/" component={App} />
 	<Route path="/event" component={Event} />
 	<Route path="/disciplines" component={Disciplines} />
 	<Route path="/activites" component={Activites} />

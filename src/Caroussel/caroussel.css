@@ -10,6 +10,7 @@ ul li img{
 }/* ou faire un Reset.css*/
 
 .wrapCar{
+	border:2px solid red;
 	width:100%;
 	overflow:hidden;
 }
@@ -31,11 +32,12 @@ ul{
 }
 .picbox p{
 	position:absolute;
+	width:100%;
+	text-align:center;
 	top:50%;
-	margin-left: 300px;
+	border:2px solid red;
 	color:white;
 	font-size: 25px;
-	z-index:100;
 }
 .prev img{
 	margin-top: 50vh;
