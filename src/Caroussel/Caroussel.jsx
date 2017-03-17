@@ -6,7 +6,7 @@ import { Link } from 'react-router';
 const slides=[
 	{
 		url:"./img/qiqong.jpg",
-		title:"L'ART DU SOUFFLE ET DU MOUVEMENT"
+		title:"Vis ton mouvement, investi ton souffle et rencontre ta liberté"
 	},
 	{
 		url:"./img/2.JPG",
@@ -49,7 +49,7 @@ class Caroussel extends React.Component{
   render() {
 
 // la position est traduite par une margin left de: 0*-400, 1*-400 2*-400 etc
-  	let newMargin=this.state.position * -1280;
+  	let newMargin=this.state.position * -25+'%';
     return (
 
     <div className="App">
@@ -65,8 +65,8 @@ class Caroussel extends React.Component{
 	     			
 		     		{slides.map(slide=>
 		     			<li className="picbox">
+		     			<p> {slide.title}</p>
 		     		<img src={slide.url} alt="1"/>
-		     		<p> {slide.title} </p>
 		     			</li>
 		     		)}
 	     			</ul>
