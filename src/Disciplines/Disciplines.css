@@ -42,33 +42,73 @@
     width: 65%;
     border-radius: 100%;
     overflow: hidden;
+    display: flex;
 }
 
+.gridCircle img {
+    height: 100%;
+    width: 100%;
+}
+
+.gridCircle:hover img {
+    opacity: 0;
+    z-index: -10;
+display: none;
+    transition: 0.3s;
+}
+.gridCircle:hover .styleDesPla {
+  display: flex;
+  }
+.description {
+    width: 50%;
+}
+
+.description:hover {
+    width: 100%;
+    border-right: 1px solid black;
+}
+
+.planing {
+    width: 50%;
+}
+
+.planing:hover {
+    width: 100%;
+    border-left: 1px solid black;
+}
+
+
 .styleDesPla {
-    display: flex;
+    display: none;
     justify-content: center;
     background-color: #0097A7;
-    height: 50%;
     align-items: center;
+    height: 100%;
+    flex-direction: column;
     color: white;
     font-size: 24px;
     transition: 0.4s;
 }
-.styleDesPla:hover {
-  height: 100%;
+
+.planing:hover+.description {
+    width: 10%;
 }
+
 .imageDisipline {
     height: 100%;
     width: 100%;
 }
+
 .imageDisipline img {
     height: 100%;
     width: 100%;
 }
+
 .contPlaDes {
     display: flex;
     height: 50%;
 }
+
 .planingConte {
     width: 50%;
     align-items: center;
@@ -79,6 +119,7 @@
     justify-content: flex-end;
     padding-right: 20px;
 }
+
 .descriptionConte {
     width: 50%;
     align-items: center;

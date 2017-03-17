@@ -1,0 +1,73 @@
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    /*dans un objet position relative ca marche, mais pas en body*/
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid grey;
+    top: 0;
+    left: 0;
+}
+
+.overlay {
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    color: black;
+}
+
+.close {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+}
+
+.titre {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    height: 10vh;
+    align-items: center;
+}
+
+.containerDes {
+    height: 80%;
+    overflow-y: scroll;
+}
+
+.descriptionC {
+    height: 60%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.descriptionC p {
+    height: 100%;
+    font-size: 17px;
+    text-align: center;
+}
+
+.sousCategorieC {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+		padding-left: 30px;
+		margin-top: 20px;
+
+}
+.sousCategorieC p {
+	color: #4f97a7;
+}
+.sousCategorie {
+    padding-left: 40px;
+		font-size: 16px;
+}
+.descriptionSousC {
+	font-size: 15px;
+
+}
